@@ -1,7 +1,7 @@
 <h1 align="center">Hi there, I'm Paul 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007ACC&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Open+Source+Enthusiast;Lifelong+Learner" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007ACC&center=true&vCenter=true&width=435&lines=AI+ENGINEER;Software+Development;Lifelong+Learner" alt="Typing SVG" />
 </p>
 
 ### 🛠️ Tech Stack & Tools
