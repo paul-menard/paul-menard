@@ -1,0 +1,142 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style & color
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Adjust page margins
+\usepackage[scale=0.9]{geometry}
+
+% Personal Information
+\name{Paul}{Ménard}
+\address{Paris}{France}
+\phone[mobile]{+33~7~69~44~92~73}
+\email{paul.menard@student-cs.fr}
+\social[linkedin]{menardpaul}
+\social[github]{github.com/paul-menard}
+
+\begin{document}
+
+\makecvtitle
+
+% ATS TIP: Clear Headline
+\vspace*{-7mm}
+\textbf{Engineering student @ CentraleSupélec - Paris-Saclay University}\\
+%Seeking a 6-month internship starting in March 2027.\\
+%\textit{Currently in France, willing to relocate to the Netherlands for the internship.}
+%\textit{Dual Citizenship: US \& France (No Visa Sponsorship Required)}
+
+% SECTION 1: EDUCATION
+\section{Education}
+% ATS FIX: Dates must be consistent. Added specific months and explicit duration.
+\cventry{Sep 2024 -- Present}{Master of Engineering}{CentraleSupélec - Paris-Saclay University}{Gif-sur-Yvette}{}{
+\begin{itemize}
+    \item Relevant coursework: Probabilities, Statistics, Optimization, PDE, Machine Learning, High Performance Computing, Algorithms \& Data Structures, Quantum and Statistical Physics, Quantum Information \& Computing
+\end{itemize}
+}
+
+\cventry{Sep 2022 -- Jun 2024}{French Preparatory Classes - PSI}{Lycée Chaptal}{Paris}{}{
+\begin{itemize}
+    \item Relevant coursework: Calculus, Linear Algebra, Probabilities, Physics, Engineering Sciences.
+    \item Ranked 232nd out of 5,000+ candidates in the national engineering entrance exams, securing admission into CentraleSupélec.
+\end{itemize}
+}
+
+\section{Professional Experience}
+
+\cventry{Sep 2026 - Feb 2027}{Groupe BPCE}{Data Scientist Intern}{Paris}{}{
+\begin{itemize}
+    \item Engineered gradient boosted decision frameworks (\textbf{XGBoost}) processing daily influxes of \textbf{70k+ insurance claims}, cross-referencing customer call logs, claim history, and policy metadata.
+    \item Doubled model Average Precision (PR-AUC), driving a \textbf{+75\% gain in Precision/Recall} over legacy production benchmarks for automotive incident prioritization and customer recall detection.
+\end{itemize}
+}
+
+
+\cventry{Feb 2026 - Jun 2026}{CentraleSupélec - L2S Lab}{Research Assistant}{Gif-sur-Yvette}{}{
+    \begin{itemize}
+        \item Developed a data-driven framework solving complex differential equations for optimal non-linear bioreactor control.
+        \item Designed and trained Gaussian Process and Neural Network state-space models to learn underlying physical dynamics.
+        \item Built an end-to-end pipeline benchmarking learned representations against classical kinetic models (Monod, Haldane).
+    \end{itemize}
+}
+
+% SECTION 2: PROJECTS (Formatted as Experience for ATS)
+% ATS FIX: Using \cventry allows you to split content into 2-4 bullet points and include dates.
+\section{Projects}
+
+
+%\cventry{}{ML Modeling of LHC Data}{Academic Project}{}{}{
+%\begin{itemize}
+    % ATS FIX: Action Verb + Context + Result format
+    %\item Developed a Boosted Decision Tree classifier to detect the Higgs Boson in CERN datasets.
+    %\item Achieved >90\% classification accuracy and managed the Git repository for a team of 25 students.
+%\end{itemize}
+%}
+
+%\cventry{}{Classification of Satellite images}{Engineering Project}{}{}{
+%\begin{itemize}
+ %   \item Designed and optimized a Deep Learning structure using CNNs (Convolutional Neural Networks) to classify satellite images into 10 classes
+  %  \item reached 92.33 \% accuracy on the EuroSAT dataset after optimization of the hyperparameters.
+%\end{itemize}
+%}
+
+%\cventry{Apr 2026}{Tensor Network Simulation for Quantum Machine Learning}{Academic Project}{}{}{
+%\begin{itemize}
+    %\item Engineered a Quantum Spectral Clustering pipeline to classify complex non-linear datasets (e.g., Moons, Donuts) using quantum state fidelity as a similarity metric.
+    %\item Architected a high-performance simulation framework combining PennyLane and JAX, leveraging JIT compilation and multi-core parallelization to significantly accelerate tensor network contraction.
+    %\item Benchmarked Matrix Product State and exact Tensor Network scaling against classical statevector simulators and a real 127-qubit IBM QPU via Qiskit, validating time and memory complexity advantages.
+%\end{itemize}
+%}
+\cventry{Jun 2026 - Aug 2026}{Computer Vision and High-Frequency Decision Engine}{Personal Project}{}{}{
+\begin{itemize} 
+    \item Trained and deployed a customized \textbf{YOLO v8n} model on a bespoke dataset to achieve real-time obstacle detection for Geometry Dash.
+    \item Engineered a high-performance, low-latency frame capture pipeline to enable millisecond-level decision making and character control based on real-time visual feedback.
+\end{itemize}
+}
+
+
+\cventry{Feb 2026 - Mar 2026}{High-Performance Computing \& Decision Engine for Urban Demining (with CEA)}{Academic Project}{}{}{
+\begin{itemize}
+    \item Architected a scalable HPC pipeline on CEA supercomputers executing FEA explosion simulations under variable grid precisions.
+    \item Built a hybrid pathfinding engine (Dijkstra + Bayesian Optimization) parallelized across nodes with \textbf{MPI/OpenMP}.
+    \item Deployed a zero-dependency Python GUI accessed via SSH to launch the simulations.
+\end{itemize}
+}
+
+
+
+%\cventry{}{Optimization of the distribution of absorbing material in a semi-anechoic chamber}{Academic Project}{}{}{
+%\begin{itemize}
+ %   \item Developed a custom Finite Element Method (FEM) solver to compute and visualize solutions for the Helmholtz equation in a semi-anechoic chamber.
+  %  \item Implemented prefractal geometries to effectively localize wave energy.
+   % \item Designed a gradient descent optimization algorithm that dynamically adjusted absorbing material distribution, reducing total material usage by 70\%.
+%\end{itemize}
+%}
+
+
+%\cventry{}{Grammar Powered Tokenizer}{Personal Project}{}{}{
+ %   I made my own Tokenizer based on french grammar rules to be able to teach them to machines in order to make token learning and token generation more efficient based on french grammar rules + statistics rather than solely statistics.
+%}
+
+% SECTION 3: SKILLS
+\section{Technical Skills}
+\cvitem{\textbf{Frameworks}}{PyTorch, Scikit-learn, Pandas, Numpy, React}
+\cvitem{\textbf{DevOps \& others}}{Git, Bash, Docker, OpenMP/MPI, MLFlow, GCP}
+\cvitem{\textbf{Languages}}{Python, C++, JavaScript, SQL, Bash}
+
+% SECTION 4: EXTRACURRICULAR
+%\section{Volunteering}
+% ATS FIX: Broken into bullet points for readability and scoring.
+
+%\cventry{Apr 2025 -- Apr 2026}{Board Member}{Federation of Associations of CentraleSupélec}{}{}{
+%\begin{itemize}
+ %   \item Represented students in monthly debates to allocate 300k€+ annual funding.
+  %  \item Applied structured evaluation frameworks to ensure fair and impactful distribution of funds.
+%\end{itemize}
+%}
+
+% SECTION 5: LANGUAGES
+\section{Languages}
+\cvtripleitem{English}{Fluent (C2)}{French}{Native}{Spanish}{Professional proficiency (B1)}
+
+\end{document}
