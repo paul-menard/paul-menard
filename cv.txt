@@ -1,0 +1,49 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Style & color
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Adjust page margins
+\usepackage[scale=0.9]{geometry}
+
+% Personal Information
+\name{Paul}{Ménard}
+\address{Paris}{France}
+\phone[mobile]{+33~7~69~44~92~73}
+\email{paul.menard@student-cs.fr}
+\social[linkedin]{menardpaul}
+\social[github]{github.com/paul-menard}
+
+\begin{document}
+
+\makecvtitle
+
+% ATS TIP: Clear Headline
+\vspace*{-7mm}
+\textbf{Engineering student @ CentraleSupélec - Paris-Saclay University}\\
+%Seeking a 6-month internship starting in March 2027.\\
+%\textit{Currently in France, willing to relocate to the Netherlands for the internship.}
+%\textit{Dual Citizenship: US \& France (No Visa Sponsorship Required)}
+
+% SECTION 1: EDUCATION
+\section{Education}
+% ATS FIX: Dates must be consistent. Added specific months and explicit duration.
+\cventry{Sep 2024 -- Present}{Master of Engineering}{CentraleSupélec - Paris-Saclay University}{Gif-sur-Yvette}{}{
+\begin{itemize}
+    \item Relevant coursework: Probabilities, Statistics, Optimization, PDE, Machine Learning, High Performance Computing, Algorithms \& Data Structures, Quantum and Statistical Physics, Quantum Information \& Computing
+\end{itemize}
+}
+
+\cventry{Sep 2022 -- Jun 2024}{French Preparatory Classes - PSI}{Lycée Chaptal}{Paris}{}{
+\begin{itemize}
+    \item Relevant coursework: Calculus, Linear Algebra, Probabilities, Physics, Engineering Sciences.
+    \item Ranked 232nd out of 5,000+ candidates in the national engineering entrance exams, securing admission into CentraleSupélec.
+\end{itemize}
+}
+
+\section{Professional Experience}
+
+\cventry{Sep 2026 - Feb 2027}{Groupe BPCE}{Data Scientist Intern}{Paris}{}{
+\begin{itemize}
+    \item Engineered gradient boosted decision frameworks (\textbf{XGBoost}) processing daily influxes of \textbf{70k+ insurance claims}, cross-referencing customer call logs, claim history, and policy metadata.
